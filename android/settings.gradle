@@ -1,10 +1,10 @@
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 include ':appcenter-crashes'
-project(':appcenter-crashes').projectDir = new File(rootProject.projectDir, '..\node_modules\appcenter-crashes\android')
+project(':appcenter-crashes').projectDir = new File(rootProject.projectDir, '../node_modules/appcenter-crashes/android')
 include ':appcenter-analytics'
-project(':appcenter-analytics').projectDir = new File(rootProject.projectDir, '..\node_modules\appcenter-analytics\android')
+project(':appcenter-analytics').projectDir = new File(rootProject.projectDir, '../node_modules/appcenter-analytics/android')
 include ':appcenter'
-project(':appcenter').projectDir = new File(rootProject.projectDir, '..\node_modules\appcenter\android')
+project(':appcenter').projectDir = new File(rootProject.projectDir, '../node_modules/appcenter/android')
 includeUnimodulesProjects()
 
 rootProject.name = 'SmosBare'
